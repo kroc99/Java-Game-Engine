@@ -1,30 +1,37 @@
 ## Overview
-GatorEngine is a simple yet versatile Java-based game engine, designed for creating 2D games and interactive applications. It utilizes the Swing framework for the graphical user interface, providing a robust platform for rendering and handling user inputs.
+GatorEngine is a Java-based game engine for creating 2D games and interactive applications using the Swing framework. It focuses on ease of use for rendering and handling user inputs.
 
 ## Features
-2D Rendering: Utilizes Java's Graphics2D for drawing shapes, images, and text.
-Input Handling: Keyboard and mouse input handling using Swing event listeners.
-Game Object Management: Supports creation, deletion, and management of game objects within a scene.
-Flexible Update Loop: Customizable frame rate and update loop using Java Threads and Timer.
-Setup
-Java Installation: Ensure you have Java installed on your machine.
-IDE Setup: Import the project into your preferred Java IDE (e.g., IntelliJ IDEA, Eclipse).
-Usage
-Main Components
-GatorEngine class: Main class of the engine. Contains the primary game loop and setup methods.
-GameObject class: Base class for game objects in the scene. Extend this class to create custom game objects.
-Creating a Game Window
-The CreateEngineWindow method initializes the game window and sets up the rendering context.
-Game Loop
-Update: Main update loop of the engine. Redraws the background and updates all game objects.
-Start: Method called at the beginning of the game. Ideal for initializing game objects.
-Input Handling
-Key and mouse event listeners are added to the main display container for handling user inputs.
-Example Usage
-To create a new game, extend the GameObject class and override its methods for custom behavior. Use the Create method to add new objects to the scene and Delete to remove them.
+- **2D Rendering**: Employs Java's Graphics2D.
+- **Input Handling**: Implements Swing event listeners for keyboard and mouse inputs.
+- **Game Object Management**: Facilitates the creation, updating, and deletion of game objects.
+- **Update Loop**: Customizable frame rate and update loop with Java Threads and Timer.
+
+## Setup
+1. **Java Installation**: Ensure Java is installed.
+2. **IDE Setup**: Import the project into a Java IDE (e.g., IntelliJ, Eclipse).
+
+## Usage
+### Main Components
+- `GatorEngine`: Main class containing the game loop and setup methods.
+- `GameObject`: Base class for game objects. Extend for custom objects.
+
+### Creating a Game Window
+- `CreateEngineWindow` initializes the game window and rendering context.
+
+### Game Loop
+- `Update`: Main update loop for redrawing the background and updating game objects.
+- `Start`: Called at the beginning for initializing objects.
+
+### Input Handling
+- Key and mouse listeners are added to the display container.
+
+## Example Usage
+Extend `GameObject` for custom behavior. Use `Create` and `Delete` for managing objects.
 
 ## Notes
-This engine is a basic implementation and may require further optimization for complex games.
-The UI and engine components are tightly coupled; consider refactoring for larger projects.
-Contribution
-Contributions to the engine are welcome. Please follow standard coding practices and document your changes.
+- Basic implementation suitable for simple games.
+- UI and engine components are closely coupled.
+
+## Contribution
+Contributions are welcome. Adhere to standard coding practices.
