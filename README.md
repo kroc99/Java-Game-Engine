@@ -1,9 +1,7 @@
-# Java-Game-Engine
-
-Overview
+## Overview
 GatorEngine is a simple yet versatile Java-based game engine, designed for creating 2D games and interactive applications. It utilizes the Swing framework for the graphical user interface, providing a robust platform for rendering and handling user inputs.
 
-Features
+## Features
 2D Rendering: Utilizes Java's Graphics2D for drawing shapes, images, and text.
 Input Handling: Keyboard and mouse input handling using Swing event listeners.
 Game Object Management: Supports creation, deletion, and management of game objects within a scene.
@@ -25,10 +23,8 @@ Key and mouse event listeners are added to the main display container for handli
 Example Usage
 To create a new game, extend the GameObject class and override its methods for custom behavior. Use the Create method to add new objects to the scene and Delete to remove them.
 
-Notes
+## Notes
 This engine is a basic implementation and may require further optimization for complex games.
 The UI and engine components are tightly coupled; consider refactoring for larger projects.
 Contribution
 Contributions to the engine are welcome. Please follow standard coding practices and document your changes.
-
-This README provides a concise overview of your GatorEngine. For a more detailed documentation or specific use cases, you might need to expand on each section accordingly.
