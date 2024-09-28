@@ -33,5 +33,3 @@ Extend `GameObject` for custom behavior. Use `Create` and `Delete` for managing 
 - Basic implementation suitable for simple games.
 - UI and engine components are closely coupled.
 
-## Contribution
-Contributions are welcome. Adhere to standard coding practices.
